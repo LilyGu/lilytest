@@ -1,0 +1,5 @@
+*** Keywords ***
+Setup Test
+    [Timeout]    2 minutes
+    Open Browser    http://mail.163.com/    safari
+    Maximize Browser Window

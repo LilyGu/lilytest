@@ -1,0 +1,21 @@
+*Settings*							
+Suite Setup	Start Selenium Server						
+Suite Teardown	Stop Selenium Server						
+Test Setup	Setup Test						
+Test Teardown	Close Browser						
+Test Timeout	1 minute 20 seconds						
+Library	Selenium Library						
+Resource	keywords.txt						
+							
+*Variables*							
+${username}	honghong080808						
+${password}	what's password						
+							
+*Test Cases*							
+Login Should Succeed When the Correct Account Entered	[Timeout]	1 minute 30 seconds					
+	Input Text	username	${username}				
+	Input Text	password	${password}				
+	Click Button	loginBtn					
+	Wait Until Page Loaded	60 seconds					
+	Set Selenium Speed	3 seconds					
+	Page Should not Contain	${username}					
