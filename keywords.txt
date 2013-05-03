@@ -1,5 +1,5 @@
 *** Keywords ***
 Setup Test
     [Timeout]    2 minutes
-    Open Browser    http://mail.163.com/    ie
+    Open Browser    http://mail.163.com/    *chrome
     Maximize Browser Window
