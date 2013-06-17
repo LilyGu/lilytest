@@ -1,0 +1,39 @@
+Apr 24, 2013 9:58:21 AM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+09:58:22.803 INFO - Java: Sun Microsystems Inc. 20.1-b02
+09:58:22.805 INFO - OS: Windows 7 6.1 amd64
+09:58:22.817 INFO - v2.21.0, with Core v2.21.0. Built from revision 16552
+09:58:22.904 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+09:58:22.905 INFO - Version Jetty/5.1.x
+09:58:22.906 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+09:58:22.906 INFO - Started HttpContext[/selenium-server,/selenium-server]
+09:58:22.906 INFO - Started HttpContext[/,/]
+09:58:22.938 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@2d342ba4
+09:58:22.938 INFO - Started HttpContext[/wd,/wd]
+09:58:22.942 INFO - Started SocketListener on 0.0.0.0:4444
+09:58:22.942 INFO - Started org.openqa.jetty.jetty.Server@27ce2dd4
+09:58:23.089 INFO - Checking Resource aliases
+09:58:23.090 INFO - Checking Resource aliases
+09:58:23.093 INFO - Command request: getNewBrowserSession[*iexplore, http://mail.163.com/, , addCustomRequestHeaders=true] on session null
+09:58:23.095 INFO - creating new remote session
+09:58:23.103 INFO - Allocated session 4288862464d2461484380598f536051f for http://mail.163.com/, launching...
+09:58:23.408 INFO - Launching Embedded Internet Explorer...
+09:58:23.588 INFO - Launching Internet Explorer HTA...
+09:58:25.908 INFO - Got result: OK,4288862464d2461484380598f536051f on session 4288862464d2461484380598f536051f
+09:58:25.911 INFO - Command request: setTimeout[5000.0, ] on session 4288862464d2461484380598f536051f
+09:58:25.976 INFO - Got result: OK on session 4288862464d2461484380598f536051f
+09:58:25.979 INFO - Command request: open[http://mail.163.com/, True] on session 4288862464d2461484380598f536051f
+09:58:31.141 INFO - Got result: Timed out after 5000.0ms on session 4288862464d2461484380598f536051f
+09:58:31.147 INFO - Command request: captureScreenshotToString[, ] on session 4288862464d2461484380598f536051f
+09:58:31.150 INFO - Creating Robot
+09:58:31.636 INFO - Got result: [base64 encoded PNG] on session 4288862464d2461484380598f536051f
+09:58:31.671 INFO - Command request: close[, ] on session 4288862464d2461484380598f536051f
+09:58:31.801 INFO - Got result: OK on session 4288862464d2461484380598f536051f
+09:58:31.804 INFO - Command request: testComplete[, ] on session 4288862464d2461484380598f536051f
+09:58:31.805 WARN - Embedded iexplore seems to have ended on its own (did we kill the real browser???)
+09:58:31.880 INFO - Got result: OK on session 4288862464d2461484380598f536051f
+09:58:31.887 INFO - Command request: shutDownSeleniumServer[, ] on session null
+09:58:31.887 INFO - Shutdown command received
+09:58:31.888 INFO - Got result: OK on session null
+09:58:31.893 INFO - initiating shutdown
+09:58:32.395 INFO - Shutting down...

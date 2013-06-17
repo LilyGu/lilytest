@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130424 09:58:47.028" generator="Robot 2.7.7 (Python 2.7.3 on win32)">
+<suite source="C:\LILY-STUDY\Robot\project\Autotest\login.html" id="s1" name="Login">
+<test id="s1-t1" timeout="" name="login as DM">
+<kw type="setup" name="LoginKeywords.Login Test Setup" timeout="">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="SeleniumLibrary.Open Browser" timeout="">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${login address}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20130424 09:59:54.493" level="INFO">Opening browser 'ie' to base url 'http://james.scilearn.com.cn:8080/slc/home'</msg>
+<status status="FAIL" endtime="20130424 09:59:54.494" starttime="20130424 09:58:47.100"></status>
+</kw>
+<status status="FAIL" endtime="20130424 09:59:54.494" starttime="20130424 09:58:47.100"></status>
+</kw>
+<kw type="teardown" name="SeleniumLibrary.Close Browser" timeout="">
+<doc>Closes the current browser.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20130424 09:59:54.495" starttime="20130424 09:59:54.495"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20130424 09:59:54.496" critical="yes" starttime="20130424 09:58:47.098">Setup failed:
+Execution terminated by signal</status>
+</test>
+<test id="s1-t2" timeout="" name="login as SM">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20130424 09:59:54.498" critical="yes" starttime="20130424 09:59:54.497">Test execution is stopped due to a fatal error</status>
+</test>
+<test id="s1-t3" timeout="" name="login as Instructor">
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20130424 09:59:54.502" critical="yes" starttime="20130424 09:59:54.501">Test execution is stopped due to a fatal error</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20130424 09:59:54.506" starttime="20130424 09:58:47.028"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="3" pass="0">Critical Tests</stat>
+<stat fail="3" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="3" pass="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
