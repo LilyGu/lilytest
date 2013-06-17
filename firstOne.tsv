@@ -9,7 +9,7 @@ Resource	keywords.txt
 							
 *Variables*							
 ${username}	honghong080808						
-${password}	what's passwodd						
+${password}	what's passwo						
 							
 *Test Cases*							
 Login Should Succeed When the Correct Account Entered	[Timeout]	1 minute 30 seconds					
