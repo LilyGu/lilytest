@@ -13,6 +13,7 @@ ${password}	what's passwo
 							
 *Test Cases*							
 Login Should Succeed When the Correct Account Entered	[Timeout]	1 minute 30 seconds					
+	Wait Until Page Contains Element	xpath=//span[@class='domain']					
 	Input Text	username	${username}				
 	Input Text	password	${password}				
 	Click Button	loginBtn					
